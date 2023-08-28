@@ -5,6 +5,7 @@
 \# Heading level 1  -> \<h1>Heading level 1\</h1><br>
 2,3,4,5<br>
 \###### Heading level 6 ->\<h6>Heading level 6\</h1><br>
+For headings with id, use ===== (to create h1) or ------- ( to create h2) under that line.<br>
 
 ### Paragraphs
 To create paragraphs, use a blank line to separate one or more lines of text.<br>
@@ -26,7 +27,8 @@ Just like HTML tags \<strong> and \<em>.<br>
 
 For ***bold and italic***, use \*\*\*text\*\*\*<br>
 
-
+### Blockquotes
+To create a blockquote, add a > in front of a paragraph.
 
 
 ## Cheatsheets
