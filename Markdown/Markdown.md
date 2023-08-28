@@ -30,15 +30,104 @@ For ***bold and italic***, use \*\*\*text\*\*\*<br>
 ### Blockquotes
 To create a blockquote, add a > in front of a paragraph.
 
+### Links
+Here is a [link](https://duckduckgo.com "The best search engine for privacy").<br>
+
+You can link to headings with custom IDs in the file by creating a standard link with a number sign (#) followed by the custom heading ID. These are commonly referred to as anchor links.<br>
+[Heading IDs](#basic-syntax)<br>
+
+To quickly turn a URL or email address into a link, enclose it in angle brackets.<br>
+<https://www.markdownguide.org><br>
+<fake@example.com><br>
+
+### Horizontal rule
+\*** or \--- or \__<br>
+***
+Just like HTML tag \<hr>
+
+### Ordered Lists
+To create an ordered list, add line items with numbers followed by periods. The numbers don’t have to be in numerical order, but the list should start with the number one.
+
+1. First item
+2. Second item
+3. Third item
+    1. Indented item 1
+    2. Indented item 2
+4. Fourth item
+
+### Unordered Lists
+To create an unordered list, add dashes (-), asterisks (*), or plus signs (+) in front of line items. Indent one or more items to create a nested list.
+- First item
+- Second item
+- Third item
+    - Indented item 1
+    - Indented item 2
+- Fourth item
+
+To add another element in a list while preserving the continuity of the list, indent the element four spaces or one tab.<br>
+
+* This is the first list item.
+* Here's the second list item.
+
+    I need to add another paragraph below the second list item.
+
+* And here's the third list item.
+
+### Code
+To denote a word or phrase as code, enclose it in backticks (\`). <br>
+This word would be a `code`.<br>
+
+If the word or phrase you want to denote as code includes one or more backticks, you can escape it by enclosing the word or phrase in double backticks (\`\`).<br>
+``This entire `sentence` is code.``
+
+### Code Blocks
+To create code blocks, indent every line of the block by at least four spaces or one tab.<br>
+     code written here
+
+Fenced Code Block<br>
+```
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
+
+Syntax Highlighting<br>
+```json
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
+
+### Images
+To add an image, add an exclamation mark (!), followed by alt text in brackets, and the path or URL to the image asset in parentheses. You can optionally add a title in quotation marks after the path or URL.<br>
+
+```
+![The San Juan Mountains are beautiful!](/assets/images/san-juan-mountains.jpg "San Juan Mountains")
+```
+
+To add a link to an image, enclose the Markdown for the image in brackets, and then add the link in parentheses.<br>
+```
+[![An old rock in the desert](/assets/images/shiprock.jpg "Shiprock, New Mexico by Beau Rogers")](https://www.flickr.com/photos/beaurogers/31833779864/bXMYv)
+```
+
+### Using HTML
+Many Markdown applications allow you to use HTML tags in Markdown-formatted text. This is helpful if you prefer certain HTML tags to Markdown syntax. For example, some people find it easier to use HTML tags for images. Using HTML is also helpful when you need to change the attributes of an element, like specifying the color of text or changing the width of an image.<br>
+
 
 ## Cheatsheets
-https://www.markdownguide.org/cheat-sheet/ <br>
-https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet <br>
-https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet <br>
+https://www.markdownguide.org/cheat-sheet/<br>
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet<br>
+https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet<br>
 
-## Trainings
-https://www.markdownguide.org/basic-syntax/ <br>
-https://www.linkedin.com/learning/learning-markdown <br>
+## Training material
+https://www.markdownguide.org/basic-syntax/<br>
+https://www.markdownguide.org/extended-syntax/<br>
+https://github.github.com/gfm/<br>
+https://www.linkedin.com/learning/learning-markdown<br>
 
 ## Tools
 [stackedit.io](https://stackedit.io/) <br>
