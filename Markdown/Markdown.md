@@ -1,4 +1,7 @@
 # Markdown
+Markdown is a lightweight *markup language* that you can use to add formatting elements to plaintext text documents. When you create a Markdown-formatted file, you add Markdown syntax to the text to indicate which words and phrases should look different. It is a fast and easy way to take notes, create content for a website, and produce print-ready documents.
+
+When you write in Markdown, the text is stored in a plaintext file that has an *.md* or *.markdown* extension. You need a Markdown application capable of processing the Markdown file. These applications convert Markdown-formatted text to HTML so it can be displayed in web browsers. Markdown applications use something called a Markdown processor (also commonly referred to as a “parser” or an “implementation”) to take the Markdown-formatted text and output it to HTML format. At that point, your document can be viewed in a web browser or combined with a style sheet and printed.
 
 ## Basic Syntax
 ### Headings
@@ -9,9 +12,7 @@ For headings with id, use ===== (to create h1) or ------- ( to create h2) under 
 
 ### Paragraphs
 To create paragraphs, use a blank line to separate one or more lines of text.<br>
-
 Don't put tabs or spaces in front of your paragraphs. Keep lines left-aligned.<br>
-
 \<p>just like this in HTML\</p>
 
 ### Line Breaks
@@ -29,9 +30,14 @@ For ***bold and italic***, use \*\*\*text\*\*\*<br>
 
 ### Blockquotes
 To create a blockquote, add a > in front of a paragraph.
+> This should demonstrate a blockquote.
 
 ### Links
 Here is a [link](https://duckduckgo.com "The best search engine for privacy").<br>
+```
+And here is how to make it:
+Here is a [link](https://duckduckgo.com "The best search engine for privacy")
+```
 
 You can link to headings with custom IDs in the file by creating a standard link with a number sign (#) followed by the custom heading ID. These are commonly referred to as anchor links.<br>
 [Heading IDs](#basic-syntax)<br>
@@ -117,6 +123,32 @@ To add a link to an image, enclose the Markdown for the image in brackets, and t
 ### Using HTML
 Many Markdown applications allow you to use HTML tags in Markdown-formatted text. This is helpful if you prefer certain HTML tags to Markdown syntax. For example, some people find it easier to use HTML tags for images. Using HTML is also helpful when you need to change the attributes of an element, like specifying the color of text or changing the width of an image.<br>
 
+### Tables
+To add a table, use three or more hyphens (---) to create each column’s header, and use pipes (|) to separate each column. For compatibility, you should also add a pipe on either end of the row.<br>
+
+```
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
+```
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
+
+Alignment<br>
+```
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
+```
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
+
 
 ## Cheatsheets
 https://www.markdownguide.org/cheat-sheet/<br>
@@ -126,8 +158,11 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet<br>
 ## Training material
 https://www.markdownguide.org/basic-syntax/<br>
 https://www.markdownguide.org/extended-syntax/<br>
-https://github.github.com/gfm/<br>
+https://github.github.com/gfm/    (GitHub Flavored Markdown)<br>
 https://www.linkedin.com/learning/learning-markdown<br>
 
 ## Tools
-[stackedit.io](https://stackedit.io/) <br>
+<https://stackedit.io/> (In-browser Markdown editor)<br>
+<https://dillinger.io/> (Editor)<br>
+<https://blot.im/> (turns a folder into a website)<br>
+<https://jekyllrb.com/> (static site generator that takes Markdown files and converts them to a website)<br>
