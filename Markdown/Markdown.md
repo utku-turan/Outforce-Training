@@ -1,50 +1,65 @@
 # Markdown
-Markdown is a lightweight *markup language* that you can use to add formatting elements to plaintext text documents. When you create a Markdown-formatted file, you add Markdown syntax to the text to indicate which words and phrases should look different. It is a fast and easy way to take notes, create content for a website, and produce print-ready documents.
+> Lightweight *markup language* <br>
+> To add formatting elements to plaintext text documents <br>
+> Fast and easy way to take notes, create content for a website, and produce print-ready documents
 
-When you write in Markdown, the text is stored in a plaintext file that has an *.md* or *.markdown* extension. You need a Markdown application capable of processing the Markdown file. These applications convert Markdown-formatted text to HTML so it can be displayed in web browsers. Markdown applications use something called a Markdown processor (also commonly referred to as a “parser” or an “implementation”) to take the Markdown-formatted text and output it to HTML format. At that point, your document can be viewed in a web browser or combined with a style sheet and printed.
+> Text is stored in a plaintext file <br>
+> *.md* or *.markdown* extension
+
+> You need a Markdown application capable of processing the Markdown file. These applications convert Markdown-formatted text to HTML so it can be displayed in web browsers. <br>
+> Markdown applications use something called a Markdown processor (also commonly referred to as a “parser” or an “implementation”) to take the Markdown-formatted text and output it to HTML format.
+
 
 ## Basic Syntax
 ### Headings
-\# Heading level 1  -> \<h1>Heading level 1\</h1><br>
-2,3,4,5<br>
-\###### Heading level 6 ->\<h6>Heading level 6\</h1><br>
-For headings with id, use ===== (to create h1) or ------- ( to create h2) under that line.<br>
+\# Heading level 1  -> \<h1>Heading level 1\</h1>   (2,3,4,5)
+
+\###### Heading level 6 ->\<h6>Heading level 6\</h1>
+
+For headings with id, use ===== (to create h1) or ------- ( to create h2) under that line.
 
 ### Paragraphs
-To create paragraphs, use a blank line to separate one or more lines of text.<br>
-Don't put tabs or spaces in front of your paragraphs. Keep lines left-aligned.<br>
-\<p>just like this in HTML\</p>
+To create paragraphs, use a blank line to separate one or more lines of text.
+
+Don't put tabs or spaces in front of your paragraphs. Keep lines left-aligned.
+
+\<p>just like this in HTML\
 
 ### Line Breaks
-To create a line break or new line (\<br>), end a line with two or more spaces, and then type return.  
+To create a line break or new line (\<br>), end a line with two or more spaces, and then type return.
+
 Or you can use the \<br> HTML tag at the end of the line.<br>
 
 ### Escape Character is \
 
 ### Bold \*\*text\*\* and Italic \*text\*
-This word is **bold** and this word is *italic*.<br>
-Or you can use \_\_text\_\_ for __bold__ and \_text\_ for _italic_.<br>
-Just like HTML tags \<strong> and \<em>.<br>
+This word is **bold** and this word is *italic*.
+
+Or you can use \_\_text\_\_ for __bold__ and \_text\_ for _italic_.
+
+Just like HTML tags \<strong> and \<em>.
 
 For ***bold and italic***, use \*\*\*text\*\*\*<br>
 
 ### Blockquotes
 To create a blockquote, add a > in front of a paragraph.
+
 > This should demonstrate a blockquote.
 
 ### Links
-Here is a [link](https://duckduckgo.com "The best search engine for privacy").<br>
-```
+Here is a [link](https://duckduckgo.com "The best search engine for privacy").
+
 And here is how to make it:
+```
 Here is a [link](https://duckduckgo.com "The best search engine for privacy")
 ```
 
 You can link to headings with custom IDs in the file by creating a standard link with a number sign (#) followed by the custom heading ID. These are commonly referred to as anchor links.<br>
-[Heading IDs](#basic-syntax)<br>
+[Heading IDs](#basic-syntax)
 
 To quickly turn a URL or email address into a link, enclose it in angle brackets.<br>
 <https://www.markdownguide.org><br>
-<fake@example.com><br>
+<fake@example.com>
 
 ### Horizontal rule
 \*** or \--- or \__<br>
@@ -63,6 +78,7 @@ To create an ordered list, add line items with numbers followed by periods. The 
 
 ### Unordered Lists
 To create an unordered list, add dashes (-), asterisks (*), or plus signs (+) in front of line items. Indent one or more items to create a nested list.
+
 - First item
 - Second item
 - Third item
@@ -70,7 +86,7 @@ To create an unordered list, add dashes (-), asterisks (*), or plus signs (+) in
     - Indented item 2
 - Fourth item
 
-To add another element in a list while preserving the continuity of the list, indent the element four spaces or one tab.<br>
+To add another element in a list while preserving the continuity of the list, indent the element four spaces or one tab.
 
 * This is the first list item.
 * Here's the second list item.
@@ -87,10 +103,11 @@ If the word or phrase you want to denote as code includes one or more backticks,
 ``This entire `sentence` is code.``
 
 ### Code Blocks
-To create code blocks, indent every line of the block by at least four spaces or one tab.<br>
+To create code blocks, indent every line of the block by at least four spaces or one tab.
+
      code written here
 
-Fenced Code Block<br>
+Fenced Code Block is done using \``` <br>
 ```
 {
   "firstName": "John",
@@ -99,7 +116,7 @@ Fenced Code Block<br>
 }
 ```
 
-Syntax Highlighting<br>
+Syntax Highlighting is done using \```json <br>
 ```json
 {
   "firstName": "John",
@@ -109,7 +126,9 @@ Syntax Highlighting<br>
 ```
 
 ### Images
-To add an image, add an exclamation mark (!), followed by alt text in brackets, and the path or URL to the image asset in parentheses. You can optionally add a title in quotation marks after the path or URL.<br>
+To add an image, add an exclamation mark (!), followed by alt text in brackets, and the path or URL to the image asset in parentheses. 
+
+You can optionally add a title in quotation marks after the path or URL.<br>
 
 ```
 ![The San Juan Mountains are beautiful!](/assets/images/san-juan-mountains.jpg "San Juan Mountains")
@@ -121,10 +140,18 @@ To add a link to an image, enclose the Markdown for the image in brackets, and t
 ```
 
 ### Using HTML
-Many Markdown applications allow you to use HTML tags in Markdown-formatted text. This is helpful if you prefer certain HTML tags to Markdown syntax. For example, some people find it easier to use HTML tags for images. Using HTML is also helpful when you need to change the attributes of an element, like specifying the color of text or changing the width of an image.<br>
+Many Markdown applications allow you to use HTML tags in Markdown-formatted text.
+
+This is helpful if you prefer certain HTML tags to Markdown syntax. 
+
+For example, some people find it easier to use HTML tags for images. 
+
+Using HTML is also helpful when you need to change the attributes of an element, like specifying the color of text or changing the width of an image.
 
 ### Tables
-To add a table, use three or more hyphens (---) to create each column’s header, and use pipes (|) to separate each column. For compatibility, you should also add a pipe on either end of the row.<br>
+To add a table, use three or more hyphens (---) to create each column’s header, and use pipes (|) to separate each column. 
+
+For compatibility, you should also add a pipe on either end of the row.<br>
 
 ```
 | Syntax      | Description |
