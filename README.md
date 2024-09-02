@@ -1,5 +1,5 @@
 # Outforce-Training
-Notes & training materials on various technical topics.<br>
+Notes & training materials on technical topics.<br>
 
 Greetings,<br>
 <!--My name is Utku and I am working as an SAP ABAP developer since 2007. 
@@ -49,23 +49,24 @@ Feel free to contact me at <utku.turan@outforce.tech>.
 | 33 | SAP Signavio                                      | Lvl 2 | Functional | link     |
 | 34 | SAP Workflow Mgmt.                                | Lvl 2 | Functional | link     |
 | 35 | SAP S/4HANA Cloud Public Edition                  | Lvl 2 | Functional | link     |
-| 36 | HANA Advanced                                     | Lvl 3 | Technical  | link     |
-| 37 | Fiori / UI5 Advanced                              | Lvl 3 | Technical  | link     |
-| 38 | BTP Integration Suite                             | Lvl 3 | Technical  | link     |
-| 39 | Native HANA / XSA                                 | Lvl 3 | Technical  | link     |
-| 40 | BRF+                                              | Lvl 3 | Technical  | link     |
-| 41 | WebIDE                                            | Lvl 3 | Technical  | link     |
-| 42 | Application Interface Framework (AIF)             | Lvl 3 | Technical  | link     |
-| 43 | SAP TM Technical (BOPF, PPF)                      | Lvl 3 | Technical  | link     |
-| 44 | S/4HANA Central Business Configuration            | Lvl 3 | Functional | link     |
-| 45 | Frontend Advanced (HTML, CSS, JavaScript)         | Lvl 3 | Technical  | link     |
-| 46 | Backend Advanced (Algorithms, Data Structures)    | Lvl 3 | Technical  | link     |
-| 47 | DevOps Advanced (Git, CI/CD, Containerization)    | Lvl 3 | Technical  | link     |
-| 48 | SAP S/4HANA Transportation Mgmt.                  | Lvl 4 | Functional | link     |
-| 49 | SAP Business Network                              | Lvl 4 | Functional | link     |
-| 50 | Focused Build                                     | Lvl 4 | Functional | link     |
-| 51 | S/4HANA Move                                      | Lvl 4 | Functional | link     |
-| 52 | SAP Activate Advanced                             | Lvl 4 | Functional | link     |
-| 53 | AI Advanced                                       | Lvl 4 | Technical  | link     |
-| 54 | Cloud Computing                                   | Lvl 4 | Technical  | link     |
-| 55 | Project Mgmt Advanced (Agile / Scrum, ITIL, Lean) | Lvl 4 | Functional | link     |
+| 36 | Clean Core for S/4HANA Cloud                      | Lvl 2 | Functional | [link](CleanCore/CleanCoreBasics.md)|
+| 37 | HANA Advanced                                     | Lvl 3 | Technical  | link     |
+| 38 | Fiori / UI5 Advanced                              | Lvl 3 | Technical  | link     |
+| 39 | BTP Integration Suite                             | Lvl 3 | Technical  | link     |
+| 40 | Native HANA / XSA                                 | Lvl 3 | Technical  | link     |
+| 41 | BRF+                                              | Lvl 3 | Technical  | link     |
+| 42 | WebIDE                                            | Lvl 3 | Technical  | link     |
+| 43 | Application Interface Framework (AIF)             | Lvl 3 | Technical  | link     |
+| 44 | SAP TM Technical (BOPF, PPF)                      | Lvl 3 | Technical  | link     |
+| 45 | S/4HANA Central Business Configuration            | Lvl 3 | Functional | link     |
+| 46 | Frontend Advanced (HTML, CSS, JavaScript)         | Lvl 3 | Technical  | link     |
+| 47 | Backend Advanced (Algorithms, Data Structures)    | Lvl 3 | Technical  | link     |
+| 48 | DevOps Advanced (Git, CI/CD, Containerization)    | Lvl 3 | Technical  | link     |
+| 49 | SAP S/4HANA Transportation Mgmt.                  | Lvl 4 | Functional | link     |
+| 50 | SAP Business Network                              | Lvl 4 | Functional | link     |
+| 51 | Focused Build                                     | Lvl 4 | Functional | link     |
+| 52 | S/4HANA Move                                      | Lvl 4 | Functional | link     |
+| 53 | SAP Activate Advanced                             | Lvl 4 | Functional | link     |
+| 54 | AI Advanced                                       | Lvl 4 | Technical  | link     |
+| 55 | Cloud Computing                                   | Lvl 4 | Technical  | link     |
+| 56 | Project Mgmt Advanced (Agile / Scrum, ITIL, Lean) | Lvl 4 | Functional | link     |
