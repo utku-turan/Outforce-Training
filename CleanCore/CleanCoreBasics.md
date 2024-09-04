@@ -1,5 +1,5 @@
 # Clean Core for SAP S/4HANA Cloud - Basics
-Notes from the SAP Training [Managing Clean Core for SAP S/4HANA Cloud](https://learning.sap.com/learning-journeys/managing-clean-core-for-sap-s-4hana-cloud) 
+My notes from the SAP Training [Managing Clean Core for SAP S/4HANA Cloud](https://learning.sap.com/learning-journeys/managing-clean-core-for-sap-s-4hana-cloud) 
 
 Traditionally, companies hosted and managed SAP's ERP systems within their own data centers. However, with the introduction of cloud-based ERP systems like SAP S/4HANA Cloud, updates are delivered continuously.
 
@@ -67,13 +67,37 @@ Some key characteristics of a clean core include:
 - **Brownfield (System Conversion):** The target SAP S/4HANA Cloud instance (whether private edition or on-premise) retains some complexities from the previous system, which can be challenging. This approach means inheriting historical complexities and possibly unwanted customizations. Despite these challenges, a clean core can still be achieved through system conversions. While the system doesn’t start clean, the goal is to systematically make it clean. To implement a clean core in this scenario, you must identify which elements of the legacy system to retain, eliminate, or transform. This requires a deep understanding of the current system's functions and a clear plan for how SAP S/4HANA Cloud can facilitate the desired changes. The process involves efficiently reconciling old and new elements—transforming and adapting aspects like custom code—to ensure compliance with the clean core principles of SAP S/4HANA.
 
 When deciding between a greenfield or brownfield approach, several factors come into play, with business processes being a crucial consideration.
-
-If the client is ready and capable of adopting new business processes aligned with current best practices through a fit-to-standard approach, a greenfield strategy is a viable option. This approach allows them to implement a clean core from the start, free from the constraints of legacy coding and design.
-
-If the existing system involves complex business processes that are essential and would be costly or difficult to redesign from scratch, a brownfield approach may be more suitable. While a clean core remains the goal, this approach allows for the preservation of critical business processes while working to achieve a clean core.
+- If the client is ready and capable of adopting new business processes aligned with current best practices through a fit-to-standard approach, a greenfield strategy is a viable option. This approach allows them to implement a clean core from the start, free from the constraints of legacy coding and design.
+- If the existing system involves complex business processes that are essential and would be costly or difficult to redesign from scratch, a brownfield approach may be more suitable. While a clean core remains the goal, this approach allows for the preservation of critical business processes while working to achieve a clean core.
 
 Applying clean core principles in migrating to SAP S/4HANA Cloud involves balancing business requirements with implementation strategies. As developers, our role extends beyond coding; we serve as crucial intermediaries in ensuring that the upgraded system aligns with business needs while adhering to clean core principles.
 
 A greenfield approach offers the most straightforward path to achieving a clean core but may not always be feasible. On the other hand, a brownfield approach, while accommodating specific business complexities, still allows for the transformation and simplification of existing code to comply with clean core standards.
 
 The decision between greenfield and brownfield strategies closely depends on the business context, available resources, and willingness to embrace extensive changes. Understanding the implications of these strategies on clean core principles helps us make informed decisions that best serve the business.
+
+## Benefits of Clean Core
+### Benefits of Clean Core for Users
+- **Performance:**  improved system performance and responsiveness
+- **Cleansed Data:** clean data ensures data integrity and accuracy, which is crucial for informed decision-making.
+- **System Reliability:** release management is established as a foundation and is integrated in day-to-day operations for the system.
+- **Business Process Flexibility:** can adapt to changing conditions whether those changes originate from regulatory oversight, the market, or any other reason.
+
+Clean core enhances users' ability to make quicker, more informed decisions by improving data quality and availability.
+
+Challenges created by the legacy systems:
+- Data silos and inefficient communication
+- Manual and time-consuming processes
+- Lack of real-time insights
+
+### Benefits of Clean Core for IT
+- **Software Stack:** With SAP S/4HANA Cloud and SAP Business Technology Platform, you no longer need to manage the core software stack. Both platforms are continuously updated to the latest release automatically, eliminating the need for you to implement upgrades or maintenance packs yourself. You also have access to a wide range of partner solutions that are clean core compliant. Additionally, you can consider these solutions or opt to build side-by-side extensions using SAP Business Technology Platform if needed.
+- **Business Process Flexibility:** All stakeholders, including management, have agreed to implement SAP Best Practices content with SAP S/4HANA Cloud.
+- **Cloud Native Development:** You benefit from an end-to-end cloud-native development model (ABAP Cloud Development Model) and an end-to-end extensibility model (SAP S/4HANA Cloud Extensibility Model). These frameworks enable you to develop extensions while preserving a clean core. With this approach, modifications are no longer necessary, and upgrades do not disrupt extensions, nor do extensions interfere with upgrades.
+- A clean core improves IT strategy and execution now and sets the foundation for the future.
+
+### Benefits of Clean Core for the Company
+- **Streamlined Operations:**
+- **Cost Savings:**
+- **Improved Decision Making:**
+- **Enhanced Collaboration:**
