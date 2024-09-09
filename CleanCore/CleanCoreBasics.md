@@ -97,7 +97,45 @@ Challenges created by the legacy systems:
 - A clean core improves IT strategy and execution now and sets the foundation for the future.
 
 ### Benefits of Clean Core for the Company
-- **Streamlined Operations:**
-- **Cost Savings:**
-- **Improved Decision Making:**
-- **Enhanced Collaboration:**
+- **Streamlined Operations:** By integrating all departments and processes into a single, centralized system, you can eliminate duplicated efforts and minimized delays caused by manual data entry. This results in streamlined workflows, reduced paperwork, and quicker response times.
+- **Cost Savings:** With the ERP system in place, you gain real-time visibility into your inventory levels, ensuring optimal stock levels and reducing the risk of stockouts. Automated inventory tracking, combined with data analytics, allow you to identify trends, predict demand fluctuations, and make informed purchasing decisions. This can lead to a significant reduction in inventory holding costs and higher customer satisfaction through improved order fulfillment rates.
+- **Improved Decision Making:** One of the key strengths of SAP S/4HANA Cloud is its ability to generate real-time reports and offer in-depth insights into various business operations. With access to accurate, up-to-date information, your company management can gain a comprehensive view of the entire production process, allowing for faster, more informed decision-making. Additionally, the system's customizable dashboards and reporting tools enables intuitive visualizations, trend analysis, and forecasting. These features empower your company to identify market trends, optimize processes, and align production strategies with customer demands effectively.
+- **Enhanced Collaboration:** Instead of relying on fragmented communication channels or inconsistent spreadsheets, employees gain access to a centralized platform for information sharing. This improves communication, reduces errors, and enhances coordination throughout the production process.
+
+## Dimensions of Clean Core
+### How to Make Business Processes Clean Core Compliant
+- **Establish Organizational Structure, Technical Foundation, and Transformation Methodology:** Establishing a strong organizational structure means defining clear roles and responsibilities. Building a robust technical foundation involves selecting the correct tools and technologies to support the business processes, as well as ensuring that the infrastructure is scalable and secure. SAP S/4HANA Cloud along with SAP BTP to along with other tools fulfill this requirement. Having a transformation methodology in place, based on the different types of project implementation approaches, involves having a clear, repeatable process for evaluating, implementing, and optimizing business processes.
+- Project teams can use the following as a guidepost:
+  - Define roles and responsibilities as part of a process transformation office (or similar instance driving the success of business process transformation).
+  - Set up an end-to-end toolchain connecting Enterprise Architecture Management with Business Process Management and Application Lifecycle Management.
+  - Establish guidelines for governing process enhancements and improvements.
+- Key solution capabilities to help project teams:
+  - LeanIX: LeanIX solutions allow teams to visualize their IT application landscape, identify outdated applications, design a target state, and plan new architectural roadmaps.
+  - SAP Solution Manager and SAP Cloud ALM: Both tools help accelerate time-to-value and reduce TCO. SAP Cloud ALM, a cloud-native solution, supports the implementation and operation of SAP Cloud and hybrid landscapes.
+  - SAP Signavio Process Manager: An intuitive and comprehensive platform for business process management (BPM), enabling organizations to rapidly capture, improve, and maintain business processes at scale.
+  - SAP Signavio Process Governance: Converts business process models from Process Manager into standardized workflows, helping organizations enhance internal and external compliance through effective process governance.
+- **Setting Up a Prioritized Business Process Hierarchy:** This involves identifying and categorizing core business processes based on their strategic importance, regulatory requirements, and impact on business operations. By prioritizing these processes, organizations can focus their efforts on optimizing the critical aspects of their business, leading to better outcomes and reduced compliance risk.
+- The next step is to segment the business process views into end-to-end and functional perspectives. End-to-end process views provide an overall understanding of how data flows through the organization. Functional process views focus on the specific activities and tasks within each business function. By segmenting the business process views, organizations can gain a comprehensive understanding of their operations and identify opportunities for improvement and optimization.
+- Project teams can use the following as a guidepost:
+  - Identify end-to-end processes and journeys based on corporate strategy and goals, identify and cluster functional processes into different layers. For example, commodity, differentiating, and innovating.
+  - Prioritization and segmentation of E2E and functional processes (optionally, apply pace layers from capability maps in EAM tool).
+- Key solution capabilities provided by SAP Signavio to help project teams:
+  - SAP Signavio Process Insights
+  - SAP Signavio Process Intelligence
+- **Align To-be Process Design and Technical Realization:** by applying best practices and centrally governing the to-be process, business requirements, and design approvals. By adopting and adapting these best practices to your own business, you can significantly improve the efficiency and effectiveness of your processes while reducing the need for complex customizations.
+- Centrally governing the to-be process, business requirements, and design approvals can be accomplished by establishing a central authority or team to oversee the design and implementation of business processes in SAP ERP. By doing so, you can ensure that all processes are aligned with best practices, meet business requirements, and are approved in a standardized and consistent manner.
+- Guidepost for project teams:
+  - Analyze Current Processes: Evaluate as-is process execution to identify areas for potential improvement.
+  - Use Best Practices: Leverage preconfigured best practice content as a foundation for designing future processes.
+  - Centrally Govern Process Design: Manage to-be process design and related business requirements in a centralized platform.
+  - Align Solution Design with Processes: Connect solution design, testing, realization, and rollout with the predefined to-be process for seamless execution.
+- Key solution capabilities to help project teams:
+  - Methodology for SAP S/4HANA implementation: SAP Activate.
+  - General Guidance on SAP S/4HANA implementations and Best Practices.
+  - Preconfigured best practice processes, ready to consume: SAP Signavio Process Explorer, including, for example Enterprise Management Layer for SAP S/4HANA).
+  - Business process and journey modeling: SAP Signavio Process Manager.
+  - Workflow engine to turn business process models into executable workflows: SAP Signavio Process Governance.
+  - Continuous commenting and collaboration on business processes: SAP Signavio Process Collaboration Hub.
+
+### How to Make Extensions Clean Core Compliant
+
