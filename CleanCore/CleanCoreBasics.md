@@ -138,4 +138,28 @@ Challenges created by the legacy systems:
   - Continuous commenting and collaboration on business processes: SAP Signavio Process Collaboration Hub.
 
 ### How to Make Extensions Clean Core Compliant
-
+- **Decouple Extensions from Standard:** Adhering to clean core extensibility principles preserves system integrity, boosts efficiency, and enables seamless upgrades.
+- **Extensions Must Be Avoided When Possible:** Once business processes are clean core-compliant, it's straightforward to assess whether SAP S/4HANA Cloud’s out-of-the-box functionality can support them. If not, custom development or extensions may be required. However, by minimizing extensions, you can reduce system complexity and maintenance overhead, ensuring a more streamlined and efficient ERP system. Further to this requirement, to approve extensions, companies must set up a clean governance structure with high demands. The documentation of why the extension was needed must be clear, and so must the proposed value of the extension.
+- **Extensions Don't Break Upgrades And Upgrades Don't Break Extensions:** To prevent extensions from disrupting upgrades (or vice versa), extensions must be kept separate from SAP S/4HANA Cloud's core code. The SAP S/4HANA Cloud extensibility model was designed specifically for this purpose, ensuring that extensions do not interfere with SAP's continuous updates and innovations.
+- The model is built around the following **key principles:**
+  - Extensions can be implemented either internally within SAP S/4HANA Cloud as on-stack extensions, or externally as side-by-side extensions on SAP Business Technology Platform.
+  - Extensions must use only released local or remote public SAP Application Programming Interfaces (APIs), BAdIs, and ABAP RESTful Application Programming Model Business Object (BO) extension points.
+  - Extensions must be developed using cloud-enabled and officially released technologies.
+- Regarding the first principle, there are **three types of extensions**, categorized into two groups:
+  - **On-stack extensions (within SAP S/4HANA Cloud):**
+    - **Key user extensions (type 1):** These are created by business users with no need for deep technical expertise, allowing modifications like UI adaptations or simple logic changes.
+    - **Developer extensions (type 2):** Created by developers, these extensions involve more complex changes, including custom business logic or deeper system modifications.
+  - **Side-by-side extensions (type 3):** These are developed externally on SAP Business Technology Platform, allowing for more advanced and flexible functionality without altering the core SAP S/4HANA Cloud system.
+- Generally, type 1 or type 2 extensions are created when close coupling to SAP S/4HANA Cloud is necessary. Type 3 extensions are created when a looser coupling is acceptable.
+- Closely related to the first principle, clean core extensibility requires the use of "released" APIs and extension points (BAdIs or BO extension points). Non released objects cannot be used.
+- Both principles, when taken together, provide complete transparency (a clear separation) regarding customer code versus SAP code.
+- **Extensions Must Be Cloud Compliant:** The third principle of the SAP S/4HANA Cloud development model is the use of cloud-enabled and released technologies. The two main guideposts for customers to implement this principle are:
+  - ABAP Cloud Development Model
+  - Three-Tier Extensibility Model
+- **ABAP Cloud Development Model:** SAP developed the ABAP Cloud development model (ABAP Cloud) to address the needs of cloud-native development. It is an evolution of classical ABAP, preserving the familiar features and benefits of the ABAP language while removing elements that are incompatible with SAP S/4HANA Cloud.
+- In summary, ABAP Cloud is structured around the following principles:
+  - Only approved ABAP Cloud object types (such as ABAP RESTful application programming model artifacts) can be created.
+  - ABAP Cloud language is enforced through syntax checks.
+  - The use of released APIs is also enforced via syntax checks.
+  - All development objects are created using ABAP development tools for Eclipse.
+- **Three Tier Extensibility Model:** 
