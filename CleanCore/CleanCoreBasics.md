@@ -191,4 +191,16 @@ Challenges created by the legacy systems:
 - Goals for data: Complete, Correct, Used and relevant
 
 ### How to Make Landscapes Core Compliant
-
+- Making SAP S/4HANA Cloud integrations clean core compliant is essential for organizations looking to optimize their ERP environment.
+- Organizations can streamline their integration processes and ensure clean core compliance by following best practices and using appropriate tools, such as:
+  - OData API's.
+  - SOAP API's.
+  - SAP Integration Suite.
+  - SAP Event Mesh.
+  - SAP Application Interface Framework.
+- Goals:
+  - Upgrade stable interfaces.
+  - Proper monitoring and error resolution capabilities
+  - Only actively used and well-documented integration
+- **Base Integrations on Standard APIs:** base the integrations as much as possible on standardized OData and Simple Object Access Protocol (SOAP) APIs. These APIs allow for communication and data exchange between systems, ensuring smooth and efficient processes. An excellent tool to discover and explore APIs is the ***SAP Business Accelerator Hub***. With this tool, customers can explore APIs by category, product, domain, or even business process. In addition to basic exploration, for OData APIs customers can "try them out" against a sandbox system provisioned by SAP and dedicated for this purpose.
+- **Apply SAP Integration Suite:** 
