@@ -203,4 +203,86 @@ Challenges created by the legacy systems:
   - Proper monitoring and error resolution capabilities
   - Only actively used and well-documented integration
 - **Base Integrations on Standard APIs:** base the integrations as much as possible on standardized OData and Simple Object Access Protocol (SOAP) APIs. These APIs allow for communication and data exchange between systems, ensuring smooth and efficient processes. An excellent tool to discover and explore APIs is the ***SAP Business Accelerator Hub***. With this tool, customers can explore APIs by category, product, domain, or even business process. In addition to basic exploration, for OData APIs customers can "try them out" against a sandbox system provisioned by SAP and dedicated for this purpose.
-- **Apply SAP Integration Suite:** 
+- **Apply SAP Integration Suite:** is SAP's integration platform as a service (iPaaS). It determines whether incoming messages need to be routed to the target system (routing). If required, it performs message mapping to modify the message before forwarding it (mapping). It leverages a comprehensive set of adapters to ensure the message is in a format compatible with the target system (connectivity). Both the OData and SOAP adapters allow developers to quickly and easily establish connectivity with target systems. Integration scenarios can be set up, and importantly, easily tested.
+- **Use SAP Event Mesh for Event-Based Scenarios:** SAP Event Mesh, a service offered as part of SAP Business Technology Platform, enables applications to communicate through asynchronous events. This communication method supports the design of event-driven business processes. In an event-driven architecture, an event provider triggers an event, and an event consumer is notified and responds accordingly. SAP Event Mesh acts as the "glue" that connects the event provider and consumer, facilitating seamless interaction between them. These "asynchronous" designs are suitable for certain types of integration scenarios. The SAP Business Accelerator Hub, as with standardized OData and SOAP APIs, offers customers the ease and convenience of exploring event objects that can be used in integration scenarios.
+- For example, a company maintains business partners using SAP Master Data Governance on SAP S/4HANA Cloud and a business partner's mailing address is changed (a "change of state"). An event is raised. Both the event itself and also (if necessary) some contextual data associated with it is transferred to SAP Event Mesh. Several custom-built applications (such as a Node.js application running in SAP BTP, Cloud Foundry runtime) have "subscribed" to this event. SAP Event Mesh notifies them of the event and the contextual data. The custom-built applications then respond to the event. For example, each application can request the updated business partner information from SAP S/4HANA Cloud or an application can kick off a notification workflow for interested stakeholders.
+- **Avoid Legacy APIs And Their Legacy Extension Options:** While Remote Function Call (RFC) and Intermediate Document (IDoc) are commonly used in SAP systems, they should only be considered for integrations when absolutely necessary. These older technologies do not align with clean core principles, which emphasize reliability and flexibility in integration. It is preferable to use newer, more adaptable technologies like OData and SOAP for integrations. By avoiding RFCs and IDocs, organizations can adopt modern integration approaches that better support clean core principles, fostering a more agile and efficient ERP environment.
+- **Use SAP Application Interface Framework:** It enables business users to centrally monitor interfaces across various technologies, such as OData and SOAP, set up alerts for errors, and resolve issues without needing IT support. Security features ensure that sensitive data not required for monitoring or error resolution is hidden from business users. SAP Application Interface Framework helps companies streamline their landscapes, reduce error-handling time, and enhance governance across their system landscapes.
+- **SAP Integration Solution Advisory Methodology:** ISA-M offers a comprehensive framework that helps accelerate hybrid integration platform design, safeguard integration projects based on SAP best practices, and enable an agile integration practice across your organization. Based on the methodology, companies can define, document, and apply a strategy for enterprise.
+- The methodology offers a framework that includes:
+  - Integration use case patterns
+  - Architecture blueprints
+  - More best practices for cloud and hybrid IT landscapes
+- Its scope extends beyond technical aspects to include the organizational dimension of enterprise integration, such as establishing an Integration Center of Excellence and defining integration roles along with their responsibilities. This open framework can be applied to both SAP integration technologies and those from other vendors. It is also adaptable, allowing you to customize and enhance its concepts and content to meet your specific needs. A clear adoption path is provided, enabling you to implement the methodology in your organization step by step.
+- Customers are encouraged to use ISA-M to establish a clean core-compliant integration strategy. The easiest way to do so is through SAP Integration Assessment. SAP Integration Assessment is included in SAP Integration Suite and is also available as a separate service running in the SAP Business Technology Platform, Cloud Foundry environment. It applies SAP Integration Solution Advisory Methodology in a tool-based way.
+
+### How to Make Operations Core Compliant
+- **Keep the Operations Effective and Efficient:**
+  - Day-to-day operations are planned and applied regularly.
+  - Opt-in on lifecycle events such as periodic upgrades
+  - Compliance with preapproved maintenance windows
+- **Clean Core Must Be Integrated in the End-to-End Value Process Chain for Operations:** Governance frameworks, strategic and tactical decision-making and even day-to-day decisions must always be designed and applied with clean core in mind.
+- IT must set up integrated monitoring and alerting for all aspects of the clean core, including data and extensions. This integrated view enhances control and management. IT, in collaboration with all stakeholders, should also establish procedures for event management and escalations, ensuring that these procedures align with clean core governance models.
+- There are two tools that are highly effective in achieving this goal, SAP Solution Manager and SAP Cloud Application Lifecycle Management (SAP Cloud ALM).
+- **SAP Cloud ALM** is itself a newer cloud native designed solution built entirely on cloud technology. It is included automatically in all cloud subscriptions, ready to use. Here are some of SAP Cloud ALM's features that support clean operations:
+  - Detect if any incidents have occurred.
+  - Analyze the root-cause of incidents.
+  - Correct the identified problem.
+  - Automate recurring activities.
+- **Release Management Is an Established Foundation for Clean Core:** System to always be at the latest release. For SAP S/4HANA Cloud Public Edition customers, updates are not an issue, as they are automatically pushed to all customers simultaneously. However, for customers using SAP S/4HANA Cloud Private Edition or SAP S/4HANA on-prem, automatic updates are not enforced. These customers can implement product-based innovations according to their own timeline. Still, it is essential that they aim to stay on the latest release, and if not, they must have a clear rationale for the delay. A defined timeline for adopting new releases must be established, as SAP S/4HANA should not remain "frozen." This timeline should be explicitly documented in governance frameworks, with exceptions permitted only for extraordinary reasons.
+- **Regular Housekeeping Tasks and Procedures Are Established:** Exactly which tasks and procedures vary from company to company.
+  - Designing Background Jobs for Efficient Use of Infrastructure rather than creating unnecessary system loads.
+  - Avoiding File Interfaces for Data Import or Export
+  - Regular Reviewing and Adapting User Authorizations
+- **Clean Core Dashboard:** To support clean core operations, customers can utilize the clean core dashboard. Through the Clean Core Compliance tab, users can access key clean core metrics. These metrics include the software stack version, the number of custom code objects, the volume of business modifications, and the Tier 1 extensions implemented.
+- Things to note about the clean core dashboard:
+  - The dashboard is only available for SAP S/4HANA Cloud Private Edition systems.
+  - Customers can grant access to the dashboard to partners.
+  - Metrics are collected for productive systems only.
+  - Two authorizations are needed to access the dashboard: (1): SC_CCCREAD + (2): INSTDISP (read) or INSTPROD (edit).
+  - The main channel for collecting dashboard data is Early Watch Alert (EWA), which SAP will set up.
+
+### Evaluating Clean Core Best Practices
+- Achieving a clean core is crucial for a successful ERP implementation, and SAP's best practices offer essential guidance for organizations on this transformative path. By focusing on streamlined business processes, data rationalization, and simplified system landscapes, businesses can attain operational excellence and fully leverage SAP's powerful enterprise solutions.
+- **Preparing for a Clean Core Implementation:** Specific topics to be considered fall under two areas:
+  - Conducting a comprehensive assessment of business processes.
+  - Establishing a strong governance framework.
+- **Conducting a Comprehensive Assessment of Business Processes:** SAP S/4HANA Cloud, combined with SAP Business Technology Platform, provides the flexibility to redesign processes in a simplified manner. It allows for a tailored mix of human-centered tasks and automated tasks, depending on the specific needs of the company, industry, and process involved. It is a great opportunity to not only ask the question "how do we do something better?" but also "must we do that at all?".
+- Companies can use the following template framework to get started:
+  - Evaluating existing business processes, systems, and data structures.
+  - Identifying areas of improvement and potential challenges.
+  - Engaging stakeholders to understand business requirements thoroughly.
+- **Establishing a Strong Governance Framework:** In a greenfield approach, technical and business transformations occur simultaneously. In contrast, with a brownfield approach, technical transformation typically precedes business transformation. Since a brownfield project involves system conversion, there may be a prolonged period dedicated to analyzing and cleaning custom code, particularly if significant technical debt has accumulated over the years with legacy systems. Consequently, it is crucial that IT staff, who are primarily responsible for analyzing and transforming the system, receive full support from senior management.
+- A good template to start with in establishing this framework centered on the following:
+  - Developing a governance structure with defined roles and responsibilities.
+  - Ensuring top management commitment and ownership.
+  - Aligning IT strategy with the organization's overall strategic goals.
+- **Key Principles for Clean Core Implementation:** Main principle is to get and keep a clean core across all dimensions. In particular project teams must pay attention to the following:
+  - Streamlining Business Processes.
+    - Identifying and eliminating unnecessary process steps.
+    - Reducing process deviations and exceptions.
+    - Applying industry best practices and standardization. 
+  - Rationalizing Data Structures.
+    - Assessing data quality and conducting data cleansing activities.
+    - Reducing duplicate or redundant data.
+    - Implementing a data governance framework. 
+  - Simplifying In Both Greenfield And Brownfield Scenarios.
+    - Minimize customizations to standard functionalities.
+    - Minimize extensions. When necessary, ensure that they are done in accordance with the SAP S/4HANA Cloud extensibility model.
+    - Evaluate and retire outdated or underutilized applications.
+    - Adopt innovative technologies such as Artificial Intelligence and Robotic Process Automation. 
+- **Some Best Practices for Clean Core Implementation:**
+  - ***Aligning with SAP's Reference Architecture:***
+    - Adhere to SAP's recommended system landscape and modular architectures.
+    - Use SAP's industry-specific best practices for standardization.
+    - Maximize the potential integration capabilities by using SAP Integration Suite.
+  - ***Adopting SAP's Activate Methodology:*** SAP Activate gives customers a one stop source bringing together best practices, a proven implementation methodology, and guided configuration tools to deploy SAP S/4HANA Cloud. As part of using the SAP Activate framework customers must remember to:
+    - Embrace agile implementation practices for faster and efficient rollouts.
+    - Engage stakeholders through collaborative workshops and prototyping.
+    - Apply SAP's preconfigured industry solution accelerators.
+  - ***Applying SAP's Tools and Technologies:***
+    - SAP Data Migration Cockpit for efficient data migration.
+    - SAP Fiori Custom Code Migration App to analyze custom code that must be migrated.
+- **Overcoming Challenges and Ensuring Success:** All projects, even the most successful ones, may encounter challenges along the way. While aspects like data, integrations, and extensions receive significant focus during project design and implementation, it's often the smaller details that are overlooked. Project teams should ensure attention to the following areas:
+  - ***Change Management and User Adoption:*** A comprehensive organizational change management plan should be developed as early as possible, involving users in its creation rather than relying solely on top-down directives. Prioritizing end-user training and support is crucial to driving adoption, which is the ultimate goal of any transformation project.
+  - ***Continuous Improvement and Innovation:*** Feedback from all stakeholders should be actively encouraged and used as a foundation for continuous improvement and innovation in business processes. The IT department should leverage this feedback to regularly assess system performance and adjust configurations as needed. Additionally, staying informed about SAP's latest offerings and product roadmaps can further fuel innovation.
