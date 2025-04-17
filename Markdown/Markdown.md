@@ -1,13 +1,13 @@
 # Markdown
-> Lightweight *markup language* <br>
-> To add formatting elements to plaintext text documents <br>
-> Fast and easy way to take notes, create content for a website, and produce print-ready documents
+- Lightweight *markup language* <br>
+- To add formatting elements to plaintext text documents <br>
+- Fast and easy way to take notes, create content for a website, and produce print-ready documents
 
-> Text is stored in a plaintext file <br>
-> *.md* or *.markdown* extension
+- Text is stored in a plaintext file <br>
+- *.md* or *.markdown* extension
 
-> You need a Markdown application capable of processing the Markdown file. These applications convert Markdown-formatted text to HTML so it can be displayed in web browsers. <br>
-> Markdown applications use something called a Markdown processor (also commonly referred to as a “parser” or an “implementation”) to take the Markdown-formatted text and output it to HTML format.
+- You need a Markdown application capable of processing the Markdown file. These applications convert Markdown-formatted text to HTML so it can be displayed in web browsers. <br>
+- Markdown applications use something called a Markdown processor (also commonly referred to as a “parser” or an “implementation”) to take the Markdown-formatted text and output it to HTML format.
 
 
 ## Basic Syntax
