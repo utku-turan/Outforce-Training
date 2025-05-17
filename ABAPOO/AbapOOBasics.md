@@ -48,7 +48,7 @@
 - Syntax
   ```abap
   METHODS: set_speed IMPORTING iv_speed TYPE i,
-         get_speed RETURNING VALUE(rv_speed) TYPE i.
+           get_speed RETURNING VALUE(rv_speed) TYPE i.
   ```
 
 ## Constructor
