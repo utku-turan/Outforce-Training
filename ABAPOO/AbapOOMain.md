@@ -13,9 +13,9 @@
 
 ## 1. Fundamental Principles
 - [**Encapsulation:**](/ABAPOO/AbapOOEncap.md) Use PRIVATE, PROTECTED, and PUBLIC visibility to safeguard internal object state.
+- [**Abstraction:**](/ABAPOO/AbapOOAbstraction.md) Hide implementation details through abstract classes or interfaces.
 - [**Inheritance:**](/ABAPOO/AbapOOInheritance.md) Reuse code by extending superclasses using INHERITING FROM.
 - [**Polymorphism:**](/ABAPOO/AbapOOPolymorphism.md) Call subclass-specific behavior via superclass references (via METHOD REDEFINITION, interfaces).
-- [**Abstraction:**](/ABAPOO/AbapOOAbstraction.md) Hide implementation details through abstract classes or interfaces.
 - [**Casting:**](/ABAPOO/AbapOOCasting.md) Down-casting and up-casting between super/sub-classes or interfaces.
 - [**Instance vs. Static:**](/ABAPOO/AbapOOInsvsSta.md) fundamental for designing reusable and scalable classes.
 
