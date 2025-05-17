@@ -15,14 +15,14 @@ Feel free to contact me at <utku.turan@outforce.tech>.
 | -- | ------------------------------------------------- | ----- | ---------- | -------- |
 | 0  | Markdown                                          | Lvl 0 | Technical  | [link](Markdown/Markdown.md) |
 | 1  | ABAP Basics                                       | Lvl 1 | Technical  | link     |
-| 2  | ABAP OO Basics                                    | Lvl 1 | Technical  | link     |
+| 2  | ABAP OO Basics                                    | Lvl 1 | Technical  | [link](ABAPOO/AbapOOMain.md) |
 | 3  | HANA Basics                                       | Lvl 1 | Technical  | link     |
 | 4  | ABAP on HANA                                      | Lvl 1 | Technical  | link     |
 | 5  | Fiori / UI5 Basics                                | Lvl 1 | Technical  | link     |
 | 6  | API / OData                                       | Lvl 1 | Technical  | link     |
 | 7  | CDS                                               | Lvl 1 | Technical  | link     |
 | 8  | SAP RAP                                           | Lvl 1 | Technical  | link     |
-| 9  | BTP Basics                                        | Lvl 1 | Technical  | [link](https://github.com/utku-turan/Outforce-BTP)     |
+| 9  | BTP Basics                                        | Lvl 1 | Technical  | [link](https://github.com/utku-turan/Outforce-BTP) |
 | 10 | Extension Suite                                   | Lvl 1 | Technical  | link     |
 | 11 | SAP Build - LCNC                                  | Lvl 1 | Technical  | link     |
 | 12 | S/4HANA Basics                                    | Lvl 1 | Technical  | link     |
