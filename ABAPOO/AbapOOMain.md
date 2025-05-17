@@ -9,7 +9,7 @@
 - **Attribute:** Data member (variable) of a class.
 - **Constructor:** Special method for object initialization (CONSTRUCTOR).
 - **Visibility:** Public, Protected, Private — controls access to members.
-- For details, check [**here**](/ABAPOO/AbapOOBasics.md)
+- For details, please check [**here**](/ABAPOO/AbapOOBasics.md).
 
 ## 1. Fundamental Principles
 - [**Encapsulation:**](/ABAPOO/AbapOOEncap.md) Use PRIVATE, PROTECTED, and PUBLIC visibility to safeguard internal object state.
