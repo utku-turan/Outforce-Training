@@ -12,7 +12,7 @@
 - For details, please check [**here**](/ABAPOO/AbapOOBasics.md).
 
 ## 1. Fundamental Principles
-- [**Encapsulation:**](/ABAPOO/AbapOOEncap.md) Use PRIVATE, PROTECTED, and PUBLIC visibility to safeguard internal object state.
+- [**Encapsulation:**](/ABAPOO/AbapOOEncapsulation.md) Use PRIVATE, PROTECTED, and PUBLIC visibility to safeguard internal object state.
 - [**Abstraction:**](/ABAPOO/AbapOOAbstraction.md) Hide implementation details through abstract classes or interfaces.
 - [**Inheritance:**](/ABAPOO/AbapOOInheritance.md) Reuse code by extending superclasses using INHERITING FROM.
 - [**Polymorphism:**](/ABAPOO/AbapOOPolymorphism.md) Call subclass-specific behavior via superclass references (via METHOD REDEFINITION, interfaces).
