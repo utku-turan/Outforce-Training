@@ -39,7 +39,6 @@
     ENDMETHOD.
   ENDCLASS.
   ```
-  
   ```abap
   DATA(lo_car) = NEW zcl_car( ).
   lo_car->start_engine( ).
