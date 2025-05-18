@@ -17,7 +17,7 @@
 - [**Inheritance:**](/ABAPOO/AbapOOInheritance.md) Reuse code by extending superclasses using INHERITING FROM.
 - [**Polymorphism:**](/ABAPOO/AbapOOPolymorphism.md) Call subclass-specific behavior via superclass references (via METHOD REDEFINITION, interfaces).
 - [**Casting:**](/ABAPOO/AbapOOCasting.md) Down-casting and up-casting between super/sub-classes or interfaces.
-- [**Instance vs. Static:**](/ABAPOO/AbapOOInsvsSta.md) fundamental for designing reusable and scalable classes.
+- [**Instance vs. Static:**](/ABAPOO/AbapOOInstanceVsStatic.md) fundamental for designing reusable and scalable classes.
 
 ## 2. Key Language Features
 - CLASS ... DEFINITION/IMPLEMENTATION
