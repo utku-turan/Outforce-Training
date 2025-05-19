@@ -1,9 +1,9 @@
 # Singleton Design Pattern
 - ensures that only one instance of a class exists in the system during runtime and provides global access to that instance.
 - A singleton is a class that:
-  - Can only be instantiated once
-  - Provides a global point of access
-  - Controls access to shared resources or configurations
+  - can only be instantiated once
+  - provides a global point of access
+  - controls access to shared resources or configurations
 
 ## When to Use It
 - Central configuration managers
