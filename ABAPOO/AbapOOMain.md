@@ -33,7 +33,7 @@
 - Exception Classes (CX_STATIC_CHECK, CX_NO_CHECK, CX_DYNAMIC_CHECK)
 - [**Factory Pattern**](/ABAPOO/AbapOOFactory.md) for controlled object creation
 - [**Singleton Pattern**](/ABAPOO/AbapOOSingleton.md) for shared instance
-- [**Strategy Pattern**](/ABAPOO/AbapOOStrategy.md)
+- [**Strategy Pattern**](/ABAPOO/AbapOOStrategy.md) for selecting algorithms or business rules dynamically at runtime.
 - [**Adapter Pattern**](/ABAPOO/AbapOOAdapter.md)
 - [**Decorator Pattern**](/ABAPOO/AbapOODecorator.md) – common for RAP/Framework-based apps
 - Dependency Injection using interfaces (e.g., in unit testing or service facades)
