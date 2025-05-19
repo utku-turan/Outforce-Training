@@ -35,7 +35,7 @@
 - [**Singleton Pattern**](/ABAPOO/AbapOOSingleton.md) for shared instance
 - [**Strategy Pattern**](/ABAPOO/AbapOOStrategy.md) for selecting algorithms or business rules dynamically at runtime
 - [**Adapter Pattern**](/ABAPOO/AbapOOAdapter.md) for incompatible classes to work together by converting the interface
-- [**Decorator Pattern**](/ABAPOO/AbapOODecorator.md) – common for RAP/Framework-based apps
+- [**Decorator Pattern**](/ABAPOO/AbapOODecorator.md) for adding additional behavior to an object dynamically by wrapping it with other objects
 - Dependency Injection using interfaces (e.g., in unit testing or service facades)
 - Test Classes integrated using FOR TESTING
 
