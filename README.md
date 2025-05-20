@@ -20,7 +20,7 @@ Feel free to contact me at <utku.turan@outforce.tech>.
 | 4  | ABAP on HANA                                      | Lvl 1 | Technical  | link     |
 | 5  | Fiori / UI5 Basics                                | Lvl 1 | Technical  | link     |
 | 6  | API / OData                                       | Lvl 1 | Technical  | link     |
-| 7  | CDS                                               | Lvl 1 | Technical  | link     |
+| 7  | CDS                                               | Lvl 1 | Technical  | [link](CDS/CDSMain.md) |
 | 8  | SAP RAP                                           | Lvl 1 | Technical  | link     |
 | 9  | BTP Basics                                        | Lvl 1 | Technical  | [link](https://github.com/utku-turan/Outforce-BTP) |
 | 10 | Extension Suite                                   | Lvl 1 | Technical  | link     |
