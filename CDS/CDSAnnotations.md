@@ -1,5 +1,5 @@
 # CDS Annotations
-CDS annotations are metadata tags (preceded by @) that influence:
+CDS annotations are **metadata tags** (preceded by `@`) that influence:
 - OData behavior
 - UI rendering (Fiori Elements)
 - Authorization
@@ -55,7 +55,7 @@ CDS annotations are metadata tags (preceded by @) that influence:
   @OData.publish: true
   ```
 
-### 5. @UI. Annotations* (Fiori Elements)
+### 5. @UI. Annotations (Fiori Elements)
 - On the **Entity**:
   ```abap
   @UI.headerInfo: {
@@ -79,7 +79,7 @@ CDS annotations are metadata tags (preceded by @) that influence:
 | Object page    | `@UI.identification` |
 | Header section | `@UI.headerInfo`     |
 
-### 6. @ObjectModel. Annotations*
+### 6. @ObjectModel. Annotations
 - Used in RAP and complex object structures.
 
 | Annotation                          | Use                         |
@@ -90,7 +90,7 @@ CDS annotations are metadata tags (preceded by @) that influence:
 | `@ObjectModel.createEnabled: true`  | Allows create in OData/RAP  |
 | `@ObjectModel.updateEnabled: false` | Disallows update            |
 
-### 7. @Analytics. Annotations*
+### 7. @Analytics. Annotations
 - Used for analytical CDS cubes/dimensions.
 - Example:
   ```abap
@@ -99,14 +99,14 @@ CDS annotations are metadata tags (preceded by @) that influence:
   @Analytics.dataExtraction.enabled: true
   ```
 
-### 8. @VDM. (Virtual Data Model)*
+### 8. @VDM. (Virtual Data Model)
 - SAP internal VDM guidelines. If you build views according to these conventions, you can indicate intent:
 - Example:
   ```abap
   @VDM.viewType: #BASIC / #COMPOSITE / #CONSUMPTION
   ```
 
-### 9. @Semantics. (optional)*
+### 9. @Semantics. Annotations
 - Defines semantic roles like currency, unit, quantity.
 - Example:
   ```abap
