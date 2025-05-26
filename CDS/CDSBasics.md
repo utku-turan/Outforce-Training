@@ -8,7 +8,7 @@
 | `key`                      | Fields that define uniqueness in CDS (doesn’t enforce PK at DB level) |
 
 ## Important Notes
-- CDS views are read-only unless used in RAP with proper behavior definitions.
+- CDS views are **read-only unless used in RAP** with proper behavior definitions.
 - Can include joins, associations, filters, aggregations, case expressions, and more.
 - They are defined in ADT (Eclipse), not in SE11 (although visible there after activation).
 
