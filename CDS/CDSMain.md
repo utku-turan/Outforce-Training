@@ -1,6 +1,6 @@
 # Core Data Services (CDS)
-- Core Data Services (CDS) is a semantic data modeling layer in SAP that allows you to define views and data models on top of database tables.
-- It supports code pushdown by moving data-intensive operations (joins, filters, aggregations) to the HANA DB layer.
+- Core Data Services (CDS) is a **semantic data modeling layer** in SAP that allows you to define views and data models on top of database tables.
+- It supports **code pushdown** by moving data-intensive operations (joins, filters, aggregations) to the HANA DB layer.
 - CDS views can serve:
   - ABAP SQL consumers
   - OData services for Fiori/UI5
@@ -30,7 +30,7 @@ define view zcds_product as select from mara
 
 ## CDS Basics
 - Key Concepts, Tools & Environments
-- CDS vs traditional views vs Open SQL
+- CDS vs Traditional Views vs Open SQL
 - CDS syntax and annotations overview
 - CDS naming conventions (I_ and C_ interfaces)
 - Details can be found [here](/CDS/CDSBasics.md).
@@ -54,10 +54,10 @@ define view zcds_product as select from mara
 - Details can be found [here](/CDS/CDSAnnotations.md).
 
 ## CDS Associations and Joins
-- Path expressions vs joins
-- Composition of associations
+- **Path expressions** vs joins
+- Composition of **associations**
 - `LEFT OUTER` vs `INNER` joins in CDS
-- ON conditions and cardinality
+- `ON` conditions and cardinality
 - Details can be found [here](/CDS/CDSAssociations.md).
 - [Composition vs Aggregation in CDS](/CDS/CDSCompositionVsAggregation.md)
 
@@ -68,7 +68,7 @@ define view zcds_product as select from mara
 
 ## CDS with OData and Fiori
 - `@OData.publish: true` (auto exposure)
-- Using CDS views in Fiori Elements
+- **Using CDS views in Fiori Elements**
 - UI annotations for fields, tables, charts, facets
 
 ## CDS and RAP
@@ -84,7 +84,7 @@ define view zcds_product as select from mara
 
 ## CDS Extensions
 - Extending existing CDS views
-- Adding fields and annotations via EXTEND VIEW
+- Adding fields and annotations via `EXTEND VIEW`
 - Limitations of extension
 
 ## CDS View Entities (vs CDS DDIC-based Views)
