@@ -81,5 +81,5 @@ define view ZI_SalesOrder as select from I_SalesOrder as so
   @ObjectModel.composition: true
   _Items
   ```
-> This marks _Items as a child node in a RAP-managed composition tree.
-> CRUD operations can propagate automatically.
+> - This marks _Items as a child node in a RAP-managed composition tree.
+> - CRUD operations can propagate automatically.
