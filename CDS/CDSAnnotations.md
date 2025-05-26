@@ -8,15 +8,15 @@ CDS annotations are **metadata tags** (preceded by `@`) that influence:
 - Database characteristics
 
 ## Annotation Categories
-| Category       | Prefix             | Purpose                                 |
-| -------------- | ------------------ | --------------------------------------- |
-| Catalog        | `@AbapCatalog.*`   | DB-level settings                       |
-| UI             | `@UI.*`            | Fiori Elements rendering                |
-| OData          | `@OData.*`         | OData service behavior                  |
-| Object Model   | `@ObjectModel.*`   | RAP, associations, composition          |
-| Access Control | `@AccessControl.*` | Authorization checks                    |
-| Analytics      | `@Analytics.*`     | Analytical queries (embedded analytics) |
-| End-user text  | `@EndUserText.*`   | Field/view descriptions                 |
+| Category           | Prefix             | Purpose                                 |
+| --------------     | ------------------ | --------------------------------------- |
+| **Catalog**        | `@AbapCatalog.*`   | DB-level settings                       |
+| **UI**             | `@UI.*`            | Fiori Elements rendering                |
+| **OData**          | `@OData.*`         | OData service behavior                  |
+| **Object Model**   | `@ObjectModel.*`   | RAP, associations, composition          |
+| **Access Control** | `@AccessControl.*` | Authorization checks                    |
+| **Analytics**      | `@Analytics.*`     | Analytical queries (embedded analytics) |
+| **End-user text**  | `@EndUserText.*`   | Field/view descriptions                 |
 
 ## Most Important CDS Annotations
 ### 1. @AbapCatalog.sqlViewName
