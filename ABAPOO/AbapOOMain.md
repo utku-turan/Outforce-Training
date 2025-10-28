@@ -30,7 +30,7 @@
 - Objects are referenced using TYPE REF TO.
 
 ## 3. Advanced Constructs
-- Exception Classes (CX_STATIC_CHECK, CX_NO_CHECK, CX_DYNAMIC_CHECK)
+- [**Exception Handling & Exception Classes**](/ABAPOO/ABAPOOException.md) (CX_STATIC_CHECK, CX_NO_CHECK, CX_DYNAMIC_CHECK)
 - [**Factory Pattern**](/ABAPOO/AbapOOFactory.md) for controlled object creation
 - [**Singleton Pattern**](/ABAPOO/AbapOOSingleton.md) for shared instance
 - [**Strategy Pattern**](/ABAPOO/AbapOOStrategy.md) for selecting algorithms or business rules dynamically at runtime
