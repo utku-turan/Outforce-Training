@@ -83,3 +83,10 @@ lo_child->greet_sub( ). " From subclass
   ```abap
   CLASS zcl_base DEFINITION FINAL. " Can't be subclassed
   ```
+
+## Real-World Use Cases
+| Superclass         | Subclass                    |
+| ------------------ | --------------------------- |
+| `ZCL_DOCUMENT`     | `ZCL_INVOICE`, `ZCL_ORDER`  |
+| `ZCL_EMPLOYEE`     | `ZCL_MANAGER`, `ZCL_WORKER` |
+| `ZCL_UI_COMPONENT` | `ZCL_BUTTON`, `ZCL_INPUT`   |
