@@ -51,11 +51,9 @@ ENDCLASS.
 ### 2. Implement the Constructor
 ```abap
 CLASS zcx_invalid_order IMPLEMENTATION.
-
   METHOD constructor.
     super->constructor( iv_msg ).
   ENDMETHOD.
-
 ENDCLASS.
 ```
 
