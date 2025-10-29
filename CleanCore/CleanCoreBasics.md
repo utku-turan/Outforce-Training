@@ -21,6 +21,10 @@ SAP S/4HANA Cloud and SAP BTP enhance landscape flexibility through extensibilit
 - **Landscape Compexity:** Business model adaptations, Key application adjustments, Changing customer preferences, Cloud Computing and Agile Development, SAP S/4HANA Cloud and SAP BTP.
 
 ## Clean Core Components
+**"Core"** means pillars or dimensions.<br>
+**"Clean"** means for each dimension a set of best practices, methodologies, and tools exist. If these are used, they allow the customer to consider that dimension to be "clean". 
+
+
 Clean Core Dimensions:
 - Processes
 - Extensions
