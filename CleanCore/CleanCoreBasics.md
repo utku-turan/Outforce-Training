@@ -70,6 +70,9 @@ Some key characteristics of a clean core include:
 - **Fit-to-Standard is the Only Way to Achieve a Clean Core:** While adhering to fit-to-standard practices can lead to a clean core, the use of Tier 1 extensibility options can also contribute to maintaining a clean core.
 
 ### Implementation Types and Clean Core
+<img width="1312" height="678" alt="image" src="https://github.com/user-attachments/assets/3a8cd324-5bda-475c-adab-a29b620be7c0" />
+
+
 - **Greenfield (New Implementation):** Adopting the greenfield approach enables a fresh start, allowing for a clean core from the outset. This method ensures greater efficiency and minimizes complexity, as the new system is inherently clean by default.
 - **Brownfield (System Conversion):** The target SAP S/4HANA Cloud instance (whether private edition or on-premise) retains some complexities from the previous system, which can be challenging. This approach means inheriting historical complexities and possibly unwanted customizations. Despite these challenges, a clean core can still be achieved through system conversions. While the system doesn’t start clean, the goal is to systematically make it clean. To implement a clean core in this scenario, you must identify which elements of the legacy system to retain, eliminate, or transform. This requires a deep understanding of the current system's functions and a clear plan for how SAP S/4HANA Cloud can facilitate the desired changes. The process involves efficiently reconciling old and new elements—transforming and adapting aspects like custom code—to ensure compliance with the clean core principles of SAP S/4HANA.
 
