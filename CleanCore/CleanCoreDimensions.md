@@ -5,6 +5,7 @@
     - Define roles and responsibilities as part of a process transformation office (or similar instance driving the success of business process transformation).
     - Set up an end-to-end toolchain connecting Enterprise Architecture Management with Business Process Management and Application Lifecycle Management.
     - Establish guidelines for governing process enhancements and improvements.
+      
   - Key solution capabilities to help project teams:
     - LeanIX: LeanIX solutions allow teams to visualize their IT application landscape, identify outdated applications, design a target state, and plan new architectural roadmaps.
     - SAP Solution Manager and SAP Cloud ALM: Both tools help accelerate time-to-value and reduce TCO. SAP Cloud ALM, a cloud-native solution, supports the implementation and operation of SAP Cloud and hybrid landscapes.
@@ -16,6 +17,7 @@
   - Project teams can use the following as a guidepost:
     - Identify end-to-end processes and journeys based on corporate strategy and goals, identify and cluster functional processes into different layers. For example, commodity, differentiating, and innovating.
     - Prioritization and segmentation of E2E and functional processes (optionally, apply pace layers from capability maps in EAM tool).
+
   - Key solution capabilities provided by SAP Signavio to help project teams:
     - SAP Signavio Process Insights
     - SAP Signavio Process Intelligence
