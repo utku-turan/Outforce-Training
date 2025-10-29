@@ -32,7 +32,6 @@ Clean Core Dimensions:
 - Integrations
 - Operations
 
-When we refer to "Clean," it means that for each of the dimensions mentioned, there is a specific set of best practices, methodologies, and tools available. By following these, customers can ensure that the respective dimension is considered "clean." Each dimension has its own tailored best practices, methodologies, and tools designed to achieve this.
 
 In the ideal scenario for a clean core, the system is fully up-to-date with the latest release, features cloud-compliant extensions and integrations, maintains high-quality master data, and has flawlessly designed processes.
 
