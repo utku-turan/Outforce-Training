@@ -64,7 +64,7 @@ Some key characteristics of a clean core include:
 - **SAP BTP is the Only Way to Maintain a Clean Core:** While SAP BTP is essential for creating side-by-side extensions (a key aspect of clean core), SAP S/4HANA Cloud also supports both key user and developer extensibility, allowing for clean core management within the stack.
 - **Clean Core is Only About Custom Code and Extensibility:** Clean core encompasses more than just custom code and extensions; it also impacts business processes, data management, integrations, and operational practices.
 - **Clean Core is Only About Total Cost of Ownership (TCO):** Although clean core helps reduce TCO, its benefits extend beyond cost savings. It also facilitates access to the latest innovations and supports a shift from on-premise to cloud-based solutions.
-- **Fit-to-Standard is the Only Way to Achieve a Clean Core:** While adhering to fit-to-standard practices can lead to a clean core, the use of Tier 1 extensibility options (which will be covered in a later lesson) can also contribute to maintaining a clean core.
+- **Fit-to-Standard is the Only Way to Achieve a Clean Core:** While adhering to fit-to-standard practices can lead to a clean core, the use of Tier 1 extensibility options can also contribute to maintaining a clean core.
 
 ### Implementation Types and Clean Core
 - **Greenfield (New Implementation):** Adopting the greenfield approach enables a fresh start, allowing for a clean core from the outset. This method ensures greater efficiency and minimizes complexity, as the new system is inherently clean by default.
