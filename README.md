@@ -14,7 +14,7 @@ Feel free to contact me at <utku.turan@outforce.tech>.
 | No | Topic                                             | Level | Type       | Document |
 | -- | ------------------------------------------------- | ----- | ---------- | -------- |
 | 0  | Markdown                                          | Lvl 0 | Technical  | [link](Markdown/Markdown.md) |
-| 1  | ABAP Basics                                       | Lvl 1 | Technical  | link     |
+| 1  | ABAP Basics                                       | Lvl 1 | Technical  | [link](ABAP/ABAPMain.md)     |
 | 2  | ABAP OO Basics                                    | Lvl 1 | Technical  | [link](ABAPOO/AbapOOMain.md) |
 | 3  | HANA Basics                                       | Lvl 1 | Technical  | link     |
 | 4  | ABAP on HANA                                      | Lvl 1 | Technical  | link     |
